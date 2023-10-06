@@ -12,10 +12,10 @@ class ObservableAppState extends EventEmitter {
 
   /** @type {import('./models/Jumble.js').Jumble[]}*/
   Jumbles = [
-    new Jumble({name: '🐫 Jumble', body: "camels love to visit the jungles of camelBodia!"}),
-    new Jumble({name: '🦬 Jumble', body: ""}),
-    new Jumble({name: '👾 jumble', body: ""}),
-    new Jumble({name: '🐔 jumble', body: ""})
+    new Jumble({ name: '🐫 Jumble', body: "camels love to visit the jungles of camelBodia!" }),
+    new Jumble({ name: '🦬 Jumble', body: "I'm gonna build me an airport, put my name on it." }),
+    new Jumble({ name: '👾 jumble', body: "No! You don't even believe that!" }),
+    new Jumble({ name: '🐔 jumble', body: "Everybody's got a price for the Million Dollar Man!" })
   ]
 
   /** @type {Jumble}*/
